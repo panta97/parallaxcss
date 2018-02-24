@@ -1,0 +1,46 @@
+* {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+.parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/beach.jpg");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.parallax p {
+  padding-top: 380px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+
+  color: rgba(255, 255, 255, 0.85);
+  /* color: rgba(0, 0, 0, 0.9); */
+  /* color: #fff; */
+  font-weight: 200;
+
+  line-height: 145%;
+
+  text-justify: justify;
+
+}
+
+.content {
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+section p{
+  margin-top: 200%;
+}
